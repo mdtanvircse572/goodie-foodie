@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "Work Sans", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.btn {
+  padding: 14px 22px 14px 22px;
+  border-radius: 5px;
+  background: rgb(82, 195, 3);
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 13px;
+  font-weight: 414;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(82, 195, 3);
+}
+
+#hero {
+  height: 635px;
+  background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url("../assets/banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero .hero-content {
+  max-width: 80%; /* Adjusted to 80% of the full width */
+  width: 100%;
+}
+
+#hero .hero-content .subtitle {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 11px;
+}
+
+#hero .hero-content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 44px;
+  font-weight: 480;
+  line-height: 55px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+#hero .hero-content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 13px;
+  font-weight: 345;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 22px;
+  opacity: 0.7;
+}
+
+/* Section Two: Cards */
+.card-box {
+  width: 80%; /* Adjusted to 80% of 1920px */
+  margin: 115px auto;
+}
+
+.card-container {
+  margin-top: 33px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 345;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 33px;
+  font-weight: 483;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card {
+  max-width: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .img-box {
+  width: 292px;
+}
+
+.img-box img {
+  width: 100%;
+}
+
+.card .shop {
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 9px 22px 9px 22px;
+  margin-top: 22px;
+}
+
+.card h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 27px;
+  font-weight: 414;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.card p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 345;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
+
+/* Section Three: Food */
+.food {
+  height: 532px;
+  display: flex;
+  align-items: center;
+}
+
+.food .food-img {
+  width: 80%; /* Adjusted to 80% of 1920px */
+}
+
+.food .food-img img {
+  width: 100%;
+}
+
+.food .text_wraper {
+  width: 80%; /* Adjusted to 80% of 1920px */
+  height: 276px;
+  display: flex;
+  align-items: center;
+  border: 2px dashed rgb(219, 215, 215);
+  border-radius: 4px;
+  margin-left: 53px;
+}
+
+.food .text_wraper .text_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food .text_wraper .text_container h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 28px;
+  font-weight: 483;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+  white-space: normal;
+}
+
+.food .text_wraper .text_container p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 345;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 33px;
+}
+
+.food .text_wraper .text_container #special_p {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 414;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.food .text_wraper .text_container .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 22px;
+}
+
+.food .text_wraper .text_container .icon-container .icon {
+  height: 9px;
+  width: 21px;
+}
+
+.food .text_wraper .text_container .icon-container .icon img {
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  height: 462px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../assets/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer .text_container {
+  width: 80%; /* Adjusted to 80% of 1920px */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .text_container h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 33px;
+  font-weight: 483;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.footer .text_container p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 345;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.6;
+  margin-bottom: 33px;
+}
+
+.footer .text_container #special_p {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 22px;
+  font-weight: 414;
+  line-height: 26px;
+  letter-spacing: 0%;
+  opacity: 0.7;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.footer .text_container .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 22px;
+}
+
+.footer .text_container .icon-container .icon {
+  height: 9px;
+  width: 21px;
+}
+
+.footer .text_container .icon-container .icon img {
+  width: 100%;
+}
